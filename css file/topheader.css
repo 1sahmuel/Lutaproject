@@ -1,0 +1,36 @@
+
+
+
+.top-header{
+  background-color: #bbb;
+  padding:5px;
+}
+
+
+.top-phone, .top-mail{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  padding: 5px;
+  padding-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.top-social{
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  text-decoration:none;
+}
+
+/* Display for small screen device */
+
+@media(max-width: 600px){
+  .top-phone, .top-mail{
+    font-size: 10px; 
+  }
+  .top-social{
+    display: none;
+  }
+}
